@@ -17,19 +17,45 @@
 
 ## 🚀 About Me
 
-```javascript
-const aboutMe = {
-    name: "Amishi Verma",
-    role: "2nd year student, website developer, UI/UX designer, frontend, AIML",
-    location: "Mumbai Maharashtra",
-    code: ["Python", "Java", "C++", "C", "CSS"],
-    
-    currentFocus: "Building scalable web applications and landing an internship",
-    funFact: "Curious learner who enjoys building and experimenting with code."
-};
-```
+<div align="center">
 
----
+### Hi, I'm Amishi Verma! 👋
+
+**2nd year student | Website Developer | UI/UX Designer | Frontend | AIML**
+
+📍 Mumbai, Maharashtra | 💻 Passionate about creating amazing digital experiences
+
+</div>
+
+<table align="center">
+<tr>
+<td align="center" width="50%">
+
+### 💡 Current Focus
+Building scalable web applications and landing an internship
+
+### 🎯 What I Do
+- 🌐 Website Development
+- 🎨 UI/UX Design
+- ⚛️ Frontend Development
+- 🤖 AI/ML Projects
+
+</td>
+<td align="center" width="50%">
+
+### 💻 Languages
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![Java](https://img.shields.io/badge/Java-007396?style=for-the-badge&logo=java&logoColor=white)
+![C++](https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white)
+![C](https://img.shields.io/badge/C-A8B9CC?style=for-the-badge&logo=c&logoColor=black)
+![CSS](https://img.shields.io/badge/CSS-1572B6?style=for-the-badge&logo=css3&logoColor=white)
+
+### ✨ Fun Fact
+Curious learner who enjoys building and experimenting with code!
+
+</td>
+</tr>
+</table>
 
 ## 🛠️ Tech Stack
 
