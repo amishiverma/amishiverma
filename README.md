@@ -3,15 +3,14 @@
 </h1>
 
 <p align="center">
-  <img src="https://komarev.com/ghpvc/?username=YOUR_USERNAME&label=Profile%20views&color=0e75b6&style=flat" alt="profile views" />
-  <img src="https://img.shields.io/github/followers/YOUR_USERNAME?label=Followers&style=social" alt="followers" />
+  <img src="https://komarev.com/ghpvc/?username=amishiverma&label=Profile%20views&color=0e75b6&style=flat" alt="profile views" />
+  <img src="https://img.shields.io/github/followers/amishiverma?label=Followers&style=social" alt="followers" />
 </p>
 
 <p align="center">
-  <a href="https://linkedin.com/in/YOUR_LINKEDIN"><img src="https://img.shields.io/badge/-LinkedIn-0077B5?style=for-the-badge&logo=Linkedin&logoColor=white"/></a>
-  <a href="https://twitter.com/YOUR_TWITTER"><img src="https://img.shields.io/badge/-Twitter-1DA1F2?style=for-the-badge&logo=Twitter&logoColor=white"/></a>
-  <a href="mailto:YOUR_EMAIL@gmail.com"><img src="https://img.shields.io/badge/-Email-D14836?style=for-the-badge&logo=Gmail&logoColor=white"/></a>
-  <a href="https://YOUR_PORTFOLIO.com"><img src="https://img.shields.io/badge/-Portfolio-000000?style=for-the-badge&logo=About.me&logoColor=white"/></a>
+  <a href="https://www.linkedin.com/in/amishiverma"><img src="https://img.shields.io/badge/-LinkedIn-0077B5?style=for-the-badge&logo=Linkedin&logoColor=white"/></a>
+  <a href="mailto:amishi.vermaa@gmail.com"><img src="https://img.shields.io/badge/-Email-D14836?style=for-the-badge&logo=Gmail&logoColor=white"/></a>
+ 
 </p>
 
 ---
@@ -49,16 +48,16 @@ const aboutMe = {
 ## 📊 GitHub Stats
 
 <p align="center">
-  <img width="48%" src="https://github-readme-stats.vercel.app/api?username=YOUR_USERNAME&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" alt="GitHub Stats" />
-  <img width="48%" src="https://github-readme-streak-stats.herokuapp.com/?user=YOUR_USERNAME&theme=tokyonight&hide_border=true" alt="GitHub Streak" />
+  <img width="48%" src="https://github-readme-stats.vercel.app/api?username=amishiverma&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" alt="GitHub Stats" />
+  <img width="48%" src="https://github-readme-streak-stats.herokuapp.com/?user=amishiverma&theme=tokyonight&hide_border=true" alt="GitHub Streak" />
 </p>
 
 <p align="center">
-  <img width="60%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=YOUR_USERNAME&layout=compact&theme=tokyonight&hide_border=true&langs_count=8" alt="Top Languages" />
+  <img width="60%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=amishiverma&layout=compact&theme=tokyonight&hide_border=true&langs_count=8" alt="Top Languages" />
 </p>
 
 <p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=YOUR_USERNAME&theme=tokyo-night&hide_border=true&area=true" alt="Contribution Graph" />
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=amishiverma&theme=tokyo-night&hide_border=true&area=true" alt="Contribution Graph" />
 </p>
 
 ---
@@ -66,7 +65,7 @@ const aboutMe = {
 ## 🏆 GitHub Trophies
 
 <p align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=YOUR_USERNAME&theme=tokyonight&no-frame=true&row=1&column=7" alt="GitHub Trophies" />
+  <img src="https://github-profile-trophy.vercel.app/?username=amishiverma&theme=tokyonight&no-frame=true&row=1&column=7" alt="GitHub Trophies" />
 </p>
 
 ---
@@ -75,10 +74,10 @@ const aboutMe = {
 
 <div align="center">
 
-[![Project 1](https://github-readme-stats.vercel.app/api/pin/?username=YOUR_USERNAME&repo=PROJECT_1&theme=tokyonight&hide_border=true)](https://github.com/YOUR_USERNAME/PROJECT_1)
-[![Project 2](https://github-readme-stats.vercel.app/api/pin/?username=YOUR_USERNAME&repo=PROJECT_2&theme=tokyonight&hide_border=true)](https://github.com/YOUR_USERNAME/PROJECT_2)
-[![Project 3](https://github-readme-stats.vercel.app/api/pin/?username=YOUR_USERNAME&repo=PROJECT_3&theme=tokyonight&hide_border=true)](https://github.com/YOUR_USERNAME/PROJECT_3)
-[![Project 4](https://github-readme-stats.vercel.app/api/pin/?username=YOUR_USERNAME&repo=PROJECT_4&theme=tokyonight&hide_border=true)](https://github.com/YOUR_USERNAME/PROJECT_4)
+[![Project 1](https://github-readme-stats.vercel.app/api/pin/?username=amishiverma&repo=PROJECT_1&theme=tokyonight&hide_border=true)](https://github.com/amishiverma/PROJECT_1)
+[![Project 2](https://github-readme-stats.vercel.app/api/pin/?username=amishiverma&repo=PROJECT_2&theme=tokyonight&hide_border=true)](https://github.com/amishiverma/PROJECT_2)
+[![Project 3](https://github-readme-stats.vercel.app/api/pin/?username=amishiverma&repo=PROJECT_3&theme=tokyonight&hide_border=true)](https://github.com/amishiverma/PROJECT_3)
+[![Project 4](https://github-readme-stats.vercel.app/api/pin/?username=amishiverma&repo=PROJECT_4&theme=tokyonight&hide_border=true)](https://github.com/amishiverma/PROJECT_4)
 
 </div>
 
@@ -102,7 +101,7 @@ const aboutMe = {
 ## 🐍 Contribution Snake
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/YOUR_USERNAME/YOUR_USERNAME/output/github-contribution-grid-snake-dark.svg" alt="Snake animation" />
+  <img src="https://raw.githubusercontent.com/amishiverma/amishiverma/output/github-contribution-grid-snake-dark.svg" alt="Snake animation" />
 </p>
 
 ---
@@ -110,10 +109,8 @@ const aboutMe = {
 ## 📫 How to Reach Me
 
 <p align="center">
-  💼 <a href="https://linkedin.com/in/YOUR_LINKEDIN">LinkedIn</a> •
-  🐦 <a href="https://twitter.com/YOUR_TWITTER">Twitter</a> •
-  📧 <a href="mailto:YOUR_EMAIL@gmail.com">Email</a> •
-  🌐 <a href="https://YOUR_PORTFOLIO.com">Portfolio</a>
+  💼 <a href="https://www.linkedin.com/in/amishiverma">LinkedIn</a> •
+  📧 <a href="mailto:amishi.vermaa@gmail.com">Email</a> •
 </p>
 
 ---
@@ -123,5 +120,5 @@ const aboutMe = {
 </p>
 
 <p align="center">
-  ⭐️ From <a href="https://github.com/YOUR_USERNAME">YOUR_USERNAME</a> - Let's build something amazing together! 🚀
+  ⭐️ From <a href="https://github.com/amishiverma">amishiverma</a> - Let's build something amazing together! 🚀
 </p>
