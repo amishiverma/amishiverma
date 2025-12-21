@@ -74,10 +74,11 @@ const aboutMe = {
 
 <div align="center">
 
-[![Project 1](https://github-readme-stats.vercel.app/api/pin/?username=amishiverma&repo=PROJECT_1&theme=tokyonight&hide_border=true)](https://github.com/amishiverma/PROJECT_1)
-[![Project 2](https://github-readme-stats.vercel.app/api/pin/?username=amishiverma&repo=PROJECT_2&theme=tokyonight&hide_border=true)](https://github.com/amishiverma/PROJECT_2)
-[![Project 3](https://github-readme-stats.vercel.app/api/pin/?username=amishiverma&repo=PROJECT_3&theme=tokyonight&hide_border=true)](https://github.com/amishiverma/PROJECT_3)
-[![Project 4](https://github-readme-stats.vercel.app/api/pin/?username=amishiverma&repo=PROJECT_4&theme=tokyonight&hide_border=true)](https://github.com/amishiverma/PROJECT_4)
+[![Project 1](https://github.com/amishiverma/Futuristicaiautomotiveplatform2)
+[![Project 2](https://github.com/amishiverma/Amishi-Verma)
+[![Project 3](https://github.com/amishiverma/SOS-Blood-Donation-Platform)
+[![Project 4](https://github.com/amishiverma/sheguard-offline-ai-safety-app)
+[![Project 5](https://github.com/amishiverma/AI-Powered-Marketplace-Assistant-for-Local-Artisans)
 
 </div>
 
