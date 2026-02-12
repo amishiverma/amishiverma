@@ -76,11 +76,11 @@ Curious learner who enjoys building and experimenting with code!
 
 <div align="center">
 
-[![UPI Sahayk](https://github-readme-stats.vercel.app/api/pin/?username=amishiverma&repo=UPI-Sahayk&theme=tokyonight&hide_border=true)](https://github.com/amishiverma/UPI-Sahayk)
+[![UPI Sahayak](https://github-readme-stats.vercel.app/api/pin/?username=amishiverma&repo=UPIsahayak&theme=tokyonight&hide_border=true)](https://github.com/amishiverma/UPIsahayak)
 [![EarlyShield](https://github-readme-stats.vercel.app/api/pin/?username=amishiverma&repo=EarlyShield&theme=tokyonight&hide_border=true)](https://github.com/amishiverma/EarlyShield)
-[![Return Intelligence](https://github-readme-stats.vercel.app/api/pin/?username=amishiverma&repo=Return-Intelligence&theme=tokyonight&hide_border=true)](https://github.com/amishiverma/Return-Intelligence)
-[![AutoAI](https://github-readme-stats.vercel.app/api/pin/?username=amishiverma&repo=AutoAI&theme=tokyonight&hide_border=true)](https://github.com/amishiverma/AutoAI)
-[![SheGuard](https://github-readme-stats.vercel.app/api/pin/?username=amishiverma&repo=SheGuard&theme=tokyonight&hide_border=true)](https://github.com/amishiverma/SheGuard)
+[![Return Intelligence](https://github-readme-stats.vercel.app/api/pin/?username=amishiverma&repo=Return_Intelligence&theme=tokyonight&hide_border=true)](https://github.com/amishiverma/Return_Intelligence)
+[![AutoAi AgenticNexus](https://github-readme-stats.vercel.app/api/pin/?username=amishiverma&repo=AutoAi-AgenticNexus&theme=tokyonight&hide_border=true)](https://github.com/amishiverma/AutoAi-AgenticNexus)
+[![SheGuard Safety App](https://github-readme-stats.vercel.app/api/pin/?username=amishiverma&repo=sheguard-offline-ai-safety-app&theme=tokyonight&hide_border=true)](https://github.com/amishiverma/sheguard-offline-ai-safety-app)
 
 </div>
 
