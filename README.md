@@ -76,70 +76,118 @@ Curious learner who enjoys building and experimenting with code!
 
 <table>
 <tr>
-<td width="50%">
+<td width="50%" style="padding: 20px; border: 1px solid #30363d; border-radius: 6px;">
 
-### 🛡️ [UPI Sahayak](https://github.com/amishiverma/UPIsahayak)
+### 🛡️ UPI Sahayak - AI Fraud Detection
+
+<a href="https://github.com/amishiverma/UPIsahayak">
+  <img src="https://img.shields.io/badge/VIEW%20PROJECT-EA4335?style=for-the-badge&logo=github&logoColor=white" alt="View Project"/>
+</a>
+
+<p>
+  <img src="https://img.shields.io/badge/AI-Powered-0078D4?style=flat-square" alt="AI Powered"/>
+  <img src="https://img.shields.io/badge/Fintech-FF6F00?style=flat-square" alt="Fintech"/>
+  <img src="https://img.shields.io/badge/Voice-Assistant-E91E63?style=flat-square" alt="Voice"/>
+  <img src="https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black" alt="React"/>
+</p>
+
 AI-powered UPI fraud detection and dispute management platform with vernacular voice assistant
-<br><br>
-**Tech:** React, TypeScript, Gemini AI
-<br>
-**Features:** Forensic scanning, dispute drafting, WhatsApp integration
 
 </td>
-<td width="50%">
+<td width="50%" style="padding: 20px; border: 1px solid #30363d; border-radius: 6px;">
 
-### 🏥 [EarlyShield](https://github.com/amishiverma/EarlyShield)
-AI-powered early risk intelligence platform for institutions to detect emerging issues
-<br><br>
-**Tech:** TypeScript, AI/ML
-<br>
-**Features:** Predictive analytics, threat detection
+### 🏥 EarlyShield - Risk Intelligence
 
-</td>
-</tr>
+<a href="https://github.com/amishiverma/EarlyShield">
+  <img src="https://img.shields.io/badge/VIEW%20PROJECT-34A853?style=for-the-badge&logo=github&logoColor=white" alt="View Project"/>
+</a>
 
-<tr>
-<td width="50%">
+<p>
+  <img src="https://img.shields.io/badge/Healthcare-4CAF50?style=flat-square" alt="Healthcare"/>
+  <img src="https://img.shields.io/badge/Predictive-9C27B0?style=flat-square" alt="Predictive"/>
+  <img src="https://img.shields.io/badge/Analytics-FF9800?style=flat-square" alt="Analytics"/>
+  <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" alt="TypeScript"/>
+</p>
 
-### 📦 [Return Intelligence](https://github.com/amishiverma/Return_Intelligence)
-Transform product returns into actionable retail intelligence using AI
-<br><br>
-**Tech:** React, Azure OpenAI, TailwindCSS
-<br>
-**Features:** Root cause analysis, ROI estimation, sustainability tracking
-
-</td>
-<td width="50%">
-
-### 🚗 [AutoAI AgenticNexus](https://github.com/amishiverma/AutoAi-AgenticNexus)
-Agentic AI predictive maintenance platform for automotive ecosystems
-<br><br>
-**Tech:** Python, FastAPI, LangGraph, React
-<br>
-**Features:** Multi-agent orchestration, UEBA security, predictive maintenance
+AI-powered early risk intelligence platform detecting emerging issues before disruptions occur
 
 </td>
 </tr>
 
 <tr>
-<td width="50%">
+<td width="50%" style="padding: 20px; border: 1px solid #30363d; border-radius: 6px;">
 
-### 👩 [SheGuard Safety App](https://github.com/amishiverma/sheguard-offline-ai-safety-app)
-On-device women's safety app using Gemma 3n for real-time threat detection
-<br><br>
-**Tech:** TypeScript, Gemma AI
-<br>
-**Features:** Offline AI, voice/text threat detection, emergency response
+### 📦 Return Intelligence Platform
+
+<a href="https://github.com/amishiverma/Return_Intelligence">
+  <img src="https://img.shields.io/badge/VIEW%20PROJECT-4285F4?style=for-the-badge&logo=github&logoColor=white" alt="View Project"/>
+</a>
+
+<p>
+  <img src="https://img.shields.io/badge/Retail-0078D4?style=flat-square" alt="Retail"/>
+  <img src="https://img.shields.io/badge/Azure-0089D6?style=flat-square&logo=microsoftazure&logoColor=white" alt="Azure"/>
+  <img src="https://img.shields.io/badge/Sustainability-4CAF50?style=flat-square" alt="Sustainability"/>
+  <img src="https://img.shields.io/badge/OpenAI-412991?style=flat-square&logo=openai&logoColor=white" alt="OpenAI"/>
+</p>
+
+Transform product returns into actionable retail intelligence with AI-powered root cause analysis
 
 </td>
-<td width="50%">
+<td width="50%" style="padding: 20px; border: 1px solid #30363d; border-radius: 6px;">
 
-### 🩸 [SOS Blood Donation](https://github.com/amishiverma/SOS-Blood-Donation-Platform)
-AI-powered platform connecting hospitals and blood donors in real-time
-<br><br>
-**Tech:** TypeScript, AI/ML
-<br>
-**Features:** Real-time matching, emergency notifications
+### 🚗 AutoAI - Predictive Maintenance
+
+<a href="https://github.com/amishiverma/AutoAi-AgenticNexus">
+  <img src="https://img.shields.io/badge/VIEW%20PROJECT-EA4335?style=for-the-badge&logo=github&logoColor=white" alt="View Project"/>
+</a>
+
+<p>
+  <img src="https://img.shields.io/badge/AI-Powered-0078D4?style=flat-square" alt="AI Powered"/>
+  <img src="https://img.shields.io/badge/Automotive-FF6F00?style=flat-square" alt="Automotive"/>
+  <img src="https://img.shields.io/badge/Multi--Agent-9C27B0?style=flat-square" alt="Tech"/>
+  <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python"/>
+</p>
+
+Next-generation automotive platform powered by agentic AI for predictive maintenance
+
+</td>
+</tr>
+
+<tr>
+<td width="50%" style="padding: 20px; border: 1px solid #30363d; border-radius: 6px;">
+
+### 🛡️ SheGuard - Offline AI Safety App
+
+<a href="https://github.com/amishiverma/sheguard-offline-ai-safety-app">
+  <img src="https://img.shields.io/badge/VIEW%20PROJECT-9333EA?style=for-the-badge&logo=github&logoColor=white" alt="View Project"/>
+</a>
+
+<p>
+  <img src="https://img.shields.io/badge/AI-Safety-E91E63?style=flat-square" alt="AI"/>
+  <img src="https://img.shields.io/badge/Offline-9C27B0?style=flat-square" alt="Safety"/>
+  <img src="https://img.shields.io/badge/First-Response-FF5722?style=flat-square" alt="Offline"/>
+  <img src="https://img.shields.io/badge/Gemma-4285F4?style=flat-square" alt="First"/>
+</p>
+
+AI-powered offline safety application for women's security with real-time threat detection
+
+</td>
+<td width="50%" style="padding: 20px; border: 1px solid #30363d; border-radius: 6px;">
+
+### 🩸 SOS Blood Donation Platform
+
+<a href="https://github.com/amishiverma/SOS-Blood-Donation-Platform">
+  <img src="https://img.shields.io/badge/VIEW%20PROJECT-F59E0B?style=for-the-badge&logo=github&logoColor=white" alt="View Project"/>
+</a>
+
+<p>
+  <img src="https://img.shields.io/badge/Healthcare-4CAF50?style=flat-square" alt="Healthcare"/>
+  <img src="https://img.shields.io/badge/Platform-FF6F00?style=flat-square" alt="Platform"/>
+  <img src="https://img.shields.io/badge/Social-E91E63?style=flat-square" alt="Social"/>
+  <img src="https://img.shields.io/badge/Impact-8BC34A?style=flat-square" alt="Impact"/>
+</p>
+
+Connecting blood donors with those in need - saving lives together with AI-powered matching
 
 </td>
 </tr>
