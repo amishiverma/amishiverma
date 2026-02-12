@@ -76,72 +76,11 @@ Curious learner who enjoys building and experimenting with code!
 
 <div align="center">
 
-<table>
-<tr>
-<td width="50%" valign="top">
-
-### 🚗 Futuristic AI Automotive Platform
-[![View Project](https://img.shields.io/badge/View_Project-FF6B6B?style=for-the-badge&logo=github&logoColor=white)](https://github.com/amishiverma/Futuristicaiautomotiveplatform2)
-
-![AI](https://img.shields.io/badge/AI-Powered-blue?style=flat-square)
-![Automotive](https://img.shields.io/badge/Automotive-Tech-red?style=flat-square)
-
-Next-generation automotive platform powered by artificial intelligence
-
-</td>
-<td width="50%" valign="top">
-
-### 🩸 SOS Blood Donation Platform
-[![View Project](https://img.shields.io/badge/View_Project-E74C3C?style=for-the-badge&logo=github&logoColor=white)](https://github.com/amishiverma/SOS-Blood-Donation-Platform)
-
-![Healthcare](https://img.shields.io/badge/Healthcare-Platform-red?style=flat-square)
-![Social](https://img.shields.io/badge/Social-Impact-green?style=flat-square)
-
-Connecting blood donors with those in need - saving lives together
-
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-
-### 🛡️ SheGuard - Offline AI Safety App
-[![View Project](https://img.shields.io/badge/View_Project-9B59B6?style=for-the-badge&logo=github&logoColor=white)](https://github.com/amishiverma/sheguard-offline-ai-safety-app)
-
-![AI](https://img.shields.io/badge/AI-Safety-purple?style=flat-square)
-![Offline](https://img.shields.io/badge/Offline-First-orange?style=flat-square)
-
-AI-powered offline safety application for women's security
-
-</td>
-<td width="50%" valign="top">
-
-### 🛍️ AI Marketplace for Artisans
-[![View Project](https://img.shields.io/badge/View_Project-F39C12?style=for-the-badge&logo=github&logoColor=white)](https://github.com/amishiverma/AI-Powered-Marketplace-Assistant-for-Local-Artisans)
-
-![AI](https://img.shields.io/badge/AI-Assistant-yellow?style=flat-square)
-![Marketplace](https://img.shields.io/badge/E--Commerce-Platform-orange?style=flat-square)
-
-Empowering local artisans with AI-powered marketplace solutions
-
-</td>
-</tr>
-<tr>
-<td colspan="2" align="center" valign="top">
-
-### 📱 Personal Portfolio
-[![View Project](https://img.shields.io/badge/View_Project-3498DB?style=for-the-badge&logo=github&logoColor=white)](https://github.com/amishiverma/Amishi-Verma)
-
-![Portfolio](https://img.shields.io/badge/Portfolio-Website-blue?style=flat-square)
-![Responsive](https://img.shields.io/badge/Responsive-Design-brightgreen?style=flat-square)
-
-My personal portfolio showcasing projects and skills
-
-</td>
-</tr>
-</table>
-
-### 🌟 Explore More
-[![All Repositories](https://img.shields.io/badge/View_All_Projects-000000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/amishiverma?tab=repositories)
+[![UPI Sahayk](https://github-readme-stats.vercel.app/api/pin/?username=amishiverma&repo=UPI-Sahayk&theme=tokyonight&hide_border=true)](https://github.com/amishiverma/UPI-Sahayk)
+[![EarlyShield](https://github-readme-stats.vercel.app/api/pin/?username=amishiverma&repo=EarlyShield&theme=tokyonight&hide_border=true)](https://github.com/amishiverma/EarlyShield)
+[![Return Intelligence](https://github-readme-stats.vercel.app/api/pin/?username=amishiverma&repo=Return-Intelligence&theme=tokyonight&hide_border=true)](https://github.com/amishiverma/Return-Intelligence)
+[![AutoAI](https://github-readme-stats.vercel.app/api/pin/?username=amishiverma&repo=AutoAI&theme=tokyonight&hide_border=true)](https://github.com/amishiverma/AutoAI)
+[![SheGuard](https://github-readme-stats.vercel.app/api/pin/?username=amishiverma&repo=SheGuard&theme=tokyonight&hide_border=true)](https://github.com/amishiverma/SheGuard)
 
 </div>
 
