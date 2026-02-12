@@ -74,15 +74,76 @@ Curious learner who enjoys building and experimenting with code!
 
 ## 🎯 Featured Projects
 
-<div align="center">
+<table>
+<tr>
+<td width="50%">
 
-[![UPI Sahayak](https://github-readme-stats.vercel.app/api/pin/?username=amishiverma&repo=UPIsahayak&theme=tokyonight&hide_border=true)](https://github.com/amishiverma/UPIsahayak)
-[![EarlyShield](https://github-readme-stats.vercel.app/api/pin/?username=amishiverma&repo=EarlyShield&theme=tokyonight&hide_border=true)](https://github.com/amishiverma/EarlyShield)
-[![Return Intelligence](https://github-readme-stats.vercel.app/api/pin/?username=amishiverma&repo=Return_Intelligence&theme=tokyonight&hide_border=true)](https://github.com/amishiverma/Return_Intelligence)
-[![AutoAi AgenticNexus](https://github-readme-stats.vercel.app/api/pin/?username=amishiverma&repo=AutoAi-AgenticNexus&theme=tokyonight&hide_border=true)](https://github.com/amishiverma/AutoAi-AgenticNexus)
-[![SheGuard Safety App](https://github-readme-stats.vercel.app/api/pin/?username=amishiverma&repo=sheguard-offline-ai-safety-app&theme=tokyonight&hide_border=true)](https://github.com/amishiverma/sheguard-offline-ai-safety-app)
+### 🛡️ [UPI Sahayak](https://github.com/amishiverma/UPIsahayak)
+AI-powered UPI fraud detection and dispute management platform with vernacular voice assistant
+<br><br>
+**Tech:** React, TypeScript, Gemini AI
+<br>
+**Features:** Forensic scanning, dispute drafting, WhatsApp integration
 
-</div>
+</td>
+<td width="50%">
+
+### 🏥 [EarlyShield](https://github.com/amishiverma/EarlyShield)
+AI-powered early risk intelligence platform for institutions to detect emerging issues
+<br><br>
+**Tech:** TypeScript, AI/ML
+<br>
+**Features:** Predictive analytics, threat detection
+
+</td>
+</tr>
+
+<tr>
+<td width="50%">
+
+### 📦 [Return Intelligence](https://github.com/amishiverma/Return_Intelligence)
+Transform product returns into actionable retail intelligence using AI
+<br><br>
+**Tech:** React, Azure OpenAI, TailwindCSS
+<br>
+**Features:** Root cause analysis, ROI estimation, sustainability tracking
+
+</td>
+<td width="50%">
+
+### 🚗 [AutoAI AgenticNexus](https://github.com/amishiverma/AutoAi-AgenticNexus)
+Agentic AI predictive maintenance platform for automotive ecosystems
+<br><br>
+**Tech:** Python, FastAPI, LangGraph, React
+<br>
+**Features:** Multi-agent orchestration, UEBA security, predictive maintenance
+
+</td>
+</tr>
+
+<tr>
+<td width="50%">
+
+### 👩 [SheGuard Safety App](https://github.com/amishiverma/sheguard-offline-ai-safety-app)
+On-device women's safety app using Gemma 3n for real-time threat detection
+<br><br>
+**Tech:** TypeScript, Gemma AI
+<br>
+**Features:** Offline AI, voice/text threat detection, emergency response
+
+</td>
+<td width="50%">
+
+### 🩸 [SOS Blood Donation](https://github.com/amishiverma/SOS-Blood-Donation-Platform)
+AI-powered platform connecting hospitals and blood donors in real-time
+<br><br>
+**Tech:** TypeScript, AI/ML
+<br>
+**Features:** Real-time matching, emergency notifications
+
+</td>
+</tr>
+</table>
 
 ---
 
