@@ -96,20 +96,20 @@ AI-powered UPI fraud detection and dispute management platform with vernacular v
 </td>
 <td width="50%" style="padding: 20px; border: 1px solid #30363d; border-radius: 6px;">
 
-### 🏥 EarlyShield - Risk Intelligence
+### � EarlyShield - Campus Safety Intelligence
 
 <a href="https://github.com/amishiverma/EarlyShield">
   <img src="https://img.shields.io/badge/VIEW%20PROJECT-34A853?style=for-the-badge&logo=github&logoColor=white" alt="View Project"/>
 </a>
 
 <p>
-  <img src="https://img.shields.io/badge/Healthcare-4CAF50?style=flat-square" alt="Healthcare"/>
-  <img src="https://img.shields.io/badge/Predictive-9C27B0?style=flat-square" alt="Predictive"/>
-  <img src="https://img.shields.io/badge/Analytics-FF9800?style=flat-square" alt="Analytics"/>
-  <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" alt="TypeScript"/>
+  <img src="https://img.shields.io/badge/Campus-Safety-4CAF50?style=flat-square" alt="Campus Safety"/>
+  <img src="https://img.shields.io/badge/Real--time-9C27B0?style=flat-square" alt="Real-time"/>
+  <img src="https://img.shields.io/badge/Geospatial-FF9800?style=flat-square" alt="Geospatial"/>
+  <img src="https://img.shields.io/badge/Gemini-4285F4?style=flat-square" alt="Gemini"/>
 </p>
 
-AI-powered early risk intelligence platform detecting emerging issues before disruptions occur
+Real-time web platform bridging campus communities and safety operations with AI-powered risk signal analysis
 
 </td>
 </tr>
