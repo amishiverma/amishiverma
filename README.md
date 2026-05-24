@@ -229,12 +229,8 @@ Here are the live deployment and prototype links for my projects:
 
 ## 🤝 Open Source & Contributions
 
-I actively contribute to various developer tools, AI frameworks, and community ecosystems:
+I actively contribute to open-source software and developer tool ecosystems:
 
-* **[rocketride-org/rocketride-server](https://github.com/rocketride-org/rocketride-server)** — High-performance AI pipeline engine with a C++ core and 50+ Python-extensible nodes.
-* **[juspay/hyperswitch-prism](https://github.com/juspay/hyperswitch-prism)** — API validation and mock server tool developed by Juspay for secure and high-performance payment orchestration.
-* **[ComposioHQ/awesome-codex-skills](https://github.com/ComposioHQ/awesome-codex-skills)** — A curated collection of powerful integrations and tools for AI agents and codex interfaces.
-* **[lemony-ai/cascadeflow](https://github.com/lemony-ai/cascadeflow)** — Lightweight, highly modular execution pipelines and control flows for agentic AI applications.
 * **[Mhatreyash/ModelMarket](https://github.com/Mhatreyash/ModelMarket)** — A marketplace platform focusing on machine learning model sharing, tracking, and metrics.
 
 ---
