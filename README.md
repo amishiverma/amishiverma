@@ -52,7 +52,8 @@ A curious developer who loves experimenting with new tech stacks, designing slee
 ## 📊 GitHub Analytics & Insights
 
 <p align="center">
-  <img src="profile-summary.svg" alt="GitHub Profile Summary" width="800" />
+  <img src="profile-stats.svg" alt="GitHub Stats" height="200" />
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=amishiverma&theme=tokyonight" alt="Top Languages" height="200" />
 </p>
 <p align="center">
   <img src="https://streak-stats.demolab.com/?user=amishiverma&theme=tokyonight&hide_current_streak=true&hide_longest_streak=true&sideNums=ffffff" alt="Total Contributions" height="180" />
