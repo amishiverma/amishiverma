@@ -37,7 +37,7 @@
     <!-- 2. Public Repos Stat -->
     <g transform="translate(0, 50)">
       <!-- Book / Repo Icon -->
-      <path class="icon" d="M4 2e3v14c0 1.105.895 2 2 2h12c1.105 0 2-.895 2-2V2e3H4zm2 2h4v4H6V4zm0 6h4v2H6v-2zm0 4h10v2H6v-2zm12 2H12V4h6v12z" transform="scale(1.1)"/>
+      <path class="icon" d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20v2H6.5a1.5 1.5 0 0 0 0 3H20v1H6.5A2.5 2.5 0 0 1 4 19.5z M4 4.5A2.5 2.5 0 0 1 6.5 2H20v15H6.5A2.5 2.5 0 0 1 4 14.5v-10z" transform="scale(0.85)"/>
       <text x="28" y="14" class="stat-text">
         <tspan class="stat-value">16</tspan>
         <tspan class="stat-label"> Public Repos</tspan>

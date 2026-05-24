@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="400" height="180" viewBox="0 0 400 180">
+  <!-- Card Background matching Tokyonight theme -->
+  <rect width="400" height="180" rx="6" fill="#1a1b27" stroke="#30363d" stroke-width="1.5"/>
+
+  <!-- SVG Text Elements with customizable styles -->
+  <style>
+    .val-text {
+      font-family: "Segoe UI", Ubuntu, -apple-system, sans-serif;
+      font-weight: 700;
+      font-size: 48px;
+      fill: #ffffff;
+    }
+    .lbl-text {
+      font-family: "Segoe UI", Ubuntu, -apple-system, sans-serif;
+      font-weight: 500;
+      font-size: 15px;
+      fill: #70a5fd;
+    }
+    .date-text {
+      font-family: "Segoe UI", Ubuntu, -apple-system, sans-serif;
+      font-weight: 400;
+      font-size: 12px;
+      fill: #38bdae;
+    }
+  </style>
+
+  <!-- Number 275 - White and Giant -->
+  <text x="200" y="72" text-anchor="middle" class="val-text">275</text>
+
+  <!-- Label - Total Contributions -->
+  <text x="200" y="116" text-anchor="middle" class="lbl-text">Total Contributions</text>
+
+  <!-- Date Range -->
+  <text x="200" y="146" text-anchor="middle" class="date-text">Jan 6, 2025 - Present</text>
+</svg>
