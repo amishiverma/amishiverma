@@ -1,35 +1,43 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="400" height="180" viewBox="0 0 400 180">
-  <!-- Card Background matching Tokyonight theme -->
-  <rect width="400" height="180" rx="6" fill="#1a1b27" stroke="#30363d" stroke-width="1.5"/>
+  <defs>
+    <!-- Glowing Premium Gradient -->
+    <linearGradient id="glow-gradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#b57edc" />
+      <stop offset="50%" stop-color="#70a5fd" />
+      <stop offset="100%" stop-color="#73daca" />
+    </linearGradient>
+  </defs>
 
-  <!-- SVG Text Elements with customizable styles -->
+  <!-- Glowing Gradient Border -->
+  <rect width="400" height="180" rx="6" fill="#1a1b27" stroke="url(#glow-gradient)" stroke-width="2"/>
+
   <style>
     .val-text {
       font-family: "Segoe UI", Ubuntu, -apple-system, sans-serif;
       font-weight: 700;
-      font-size: 48px;
-      fill: #ffffff;
+      font-size: 52px;
+      fill: url(#glow-gradient);
     }
     .lbl-text {
       font-family: "Segoe UI", Ubuntu, -apple-system, sans-serif;
       font-weight: 500;
       font-size: 15px;
-      fill: #70a5fd;
+      fill: #ffffff;
     }
     .date-text {
       font-family: "Segoe UI", Ubuntu, -apple-system, sans-serif;
       font-weight: 400;
       font-size: 12px;
-      fill: #38bdae;
+      fill: #a9b1d6;
     }
   </style>
 
-  <!-- Number 275 - White and Giant -->
-  <text x="200" y="72" text-anchor="middle" class="val-text">275</text>
+  <!-- Number of Contributions -->
+  <text x="200" y="74" text-anchor="middle" class="val-text">283</text>
 
-  <!-- Label - Total Contributions -->
-  <text x="200" y="116" text-anchor="middle" class="lbl-text">Total Contributions</text>
+  <!-- Label -->
+  <text x="200" y="118" text-anchor="middle" class="lbl-text">Total Contributions</text>
 
   <!-- Date Range -->
-  <text x="200" y="146" text-anchor="middle" class="date-text">Jan 6, 2025 - Present</text>
+  <text x="200" y="148" text-anchor="middle" class="date-text">Jan 6, 2025 - Present</text>
 </svg>

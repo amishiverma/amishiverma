@@ -1,0 +1,186 @@
+import urllib.request
+import re
+import json
+
+# SVG Templates with Gradient Border and Gradient Number Fills
+CONTRIBUTIONS_TEMPLATE = """<svg xmlns="http://www.w3.org/2000/svg" width="400" height="180" viewBox="0 0 400 180">
+  <defs>
+    <!-- Glowing Premium Gradient -->
+    <linearGradient id="glow-gradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#b57edc" />
+      <stop offset="50%" stop-color="#70a5fd" />
+      <stop offset="100%" stop-color="#73daca" />
+    </linearGradient>
+  </defs>
+
+  <!-- Glowing Gradient Border -->
+  <rect width="400" height="180" rx="6" fill="#1a1b27" stroke="url(#glow-gradient)" stroke-width="2"/>
+
+  <style>
+    .val-text {
+      font-family: "Segoe UI", Ubuntu, -apple-system, sans-serif;
+      font-weight: 700;
+      font-size: 52px;
+      fill: url(#glow-gradient);
+    }
+    .lbl-text {
+      font-family: "Segoe UI", Ubuntu, -apple-system, sans-serif;
+      font-weight: 500;
+      font-size: 15px;
+      fill: #ffffff;
+    }
+    .date-text {
+      font-family: "Segoe UI", Ubuntu, -apple-system, sans-serif;
+      font-weight: 400;
+      font-size: 12px;
+      fill: #a9b1d6;
+    }
+  </style>
+
+  <!-- Number of Contributions -->
+  <text x="200" y="74" text-anchor="middle" class="val-text">{total_contributions}</text>
+
+  <!-- Label -->
+  <text x="200" y="118" text-anchor="middle" class="lbl-text">Total Contributions</text>
+
+  <!-- Date Range -->
+  <text x="200" y="148" text-anchor="middle" class="date-text">Jan 6, 2025 - Present</text>
+</svg>"""
+
+STATS_TEMPLATE = """<svg xmlns="http://www.w3.org/2000/svg" width="380" height="200" viewBox="0 0 380 200">
+  <defs>
+    <!-- Glowing Premium Gradient -->
+    <linearGradient id="glow-gradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#b57edc" />
+      <stop offset="50%" stop-color="#70a5fd" />
+      <stop offset="100%" stop-color="#73daca" />
+    </linearGradient>
+  </defs>
+
+  <!-- Glowing Gradient Border -->
+  <rect width="380" height="200" rx="6" fill="#1a1b27" stroke="url(#glow-gradient)" stroke-width="2"/>
+
+  <style>
+    .stat-text {
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", sans-serif;
+      font-size: 14px;
+      fill: #79c0ff;
+      font-weight: 500;
+    }
+    .stat-value {
+      fill: url(#glow-gradient);
+      font-weight: 700;
+      font-size: 15px;
+    }
+    .stat-label {
+      fill: #a9b1d6;
+    }
+    .icon {
+      fill: #b57edc;
+    }
+  </style>
+
+  <g transform="translate(30, 25)">
+    <!-- 1. Contributions Stat -->
+    <g transform="translate(0, 10)">
+      <path class="icon" d="M12 2C6.477 2 2 6.484 2 12.017c0 4.425 2.865 8.18 6.839 9.504.5.092.682-.217.682-.483 0-.237-.008-.868-.013-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.53 1.032 1.53 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.029-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0112 6.844c.85.004 1.705.115 2.504.337 1.909-1.296 2.747-1.027 2.747-1.027.546 1.379.202 2.398.1 2.651.64.7 1.028 1.595 1.028 2.688 0 3.848-2.339 4.695-4.566 4.943.359.309.678.92.678 1.855 0 1.338-.012 2.419-.012 2.747 0 .268.18.58.688.482A10.019 10.019 0 0022 12.017C22 6.484 17.522 2 12 2z" transform="scale(0.9)"/>
+      <text x="28" y="14" class="stat-text">
+        <tspan class="stat-value">{year_contributions}</tspan>
+        <tspan class="stat-label"> Contributions in 2026</tspan>
+      </text>
+    </g>
+
+    <!-- 2. Public Repos Stat -->
+    <g transform="translate(0, 50)">
+      <path class="icon" d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20v2H6.5a1.5 1.5 0 0 0 0 3H20v1H6.5A2.5 2.5 0 0 1 4 19.5z M4 4.5A2.5 2.5 0 0 1 6.5 2H20v15H6.5A2.5 2.5 0 0 1 4 14.5v-10z" transform="scale(0.85)"/>
+      <text x="28" y="14" class="stat-text">
+        <tspan class="stat-value">{public_repos}</tspan>
+        <tspan class="stat-label"> Public Repos</tspan>
+      </text>
+    </g>
+
+    <!-- 3. Joined GitHub Stat -->
+    <g transform="translate(0, 90)">
+      <path class="icon" d="M12 2C6.5 2 2 6.5 2 12s4.5 10 10 10 10-4.5 10-10S17.5 2 12 2zm4.2 14.2L11 13V7h1.5v5.2l4.5 2.7-.8 1.3z" transform="scale(0.9)"/>
+      <text x="28" y="14" class="stat-text">
+        <tspan class="stat-label">Joined GitHub </tspan>
+        <tspan class="stat-value">1 year ago</tspan>
+      </text>
+    </g>
+
+    <!-- 4. Email Stat -->
+    <g transform="translate(0, 130)">
+      <path class="icon" d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z" transform="scale(0.9)"/>
+      <text x="28" y="14" class="stat-text">
+        <tspan class="stat-label" fill="#70a5fd">amishi.vermaa@gmail.com</tspan>
+      </text>
+    </g>
+  </g>
+</svg>"""
+
+def fetch_contributions():
+    headers = {'User-Agent': 'Mozilla/5.0'}
+    
+    # 2025 Contributions
+    url_2025 = "https://github.com/users/amishiverma/contributions?from=2025-01-01&to=2025-12-31"
+    req = urllib.request.Request(url_2025, headers=headers)
+    contribs_2025 = 110 # Fallback
+    try:
+        with urllib.request.urlopen(req, timeout=5) as resp:
+            html = resp.read().decode('utf-8')
+            matches = re.findall(r'(\d+)\s+contributions?\s+in', html, re.I)
+            if matches:
+                contribs_2025 = int(matches[0])
+    except Exception as e:
+        print(f"Error fetching 2025 contributions: {e}")
+
+    # 2026 Contributions
+    url_2026 = "https://github.com/users/amishiverma/contributions?from=2026-01-01&to=2026-12-31"
+    req = urllib.request.Request(url_2026, headers=headers)
+    contribs_2026 = 173 # Fallback
+    try:
+        with urllib.request.urlopen(req, timeout=5) as resp:
+            html = resp.read().decode('utf-8')
+            matches = re.findall(r'(\d+)\s+contributions?\s+in', html, re.I)
+            if matches:
+                contribs_2026 = int(matches[0])
+    except Exception as e:
+        print(f"Error fetching 2026 contributions: {e}")
+
+    return contribs_2025, contribs_2026
+
+def fetch_public_repos():
+    headers = {'User-Agent': 'Mozilla/5.0'}
+    url = "https://api.github.com/users/amishiverma"
+    req = urllib.request.Request(url, headers=headers)
+    public_repos = 16 # Fallback
+    try:
+        with urllib.request.urlopen(req, timeout=5) as resp:
+            data = json.loads(resp.read().decode('utf-8'))
+            public_repos = data.get("public_repos", public_repos)
+    except Exception as e:
+        print(f"Error fetching public repos count: {e}")
+    return public_repos
+
+def main():
+    print("Fetching updated metrics...")
+    c_2025, c_2026 = fetch_contributions()
+    repos = fetch_public_repos()
+    
+    total = c_2025 + c_2026
+    print(f"Metrics Fetched: 2025 Contributions = {c_2025}, 2026 Contributions = {c_2026}, Total = {total}, Public Repos = {repos}")
+    
+    # Write contributions.svg
+    contrib_svg_content = CONTRIBUTIONS_TEMPLATE.replace("{total_contributions}", str(total))
+    with open("contributions.svg", "w", encoding="utf-8") as f:
+        f.write(contrib_svg_content)
+    print("Updated contributions.svg")
+    
+    # Write profile-stats.svg
+    stats_svg_content = STATS_TEMPLATE.replace("{year_contributions}", str(c_2026)).replace("{public_repos}", str(repos))
+    with open("profile-stats.svg", "w", encoding="utf-8") as f:
+        f.write(stats_svg_content)
+    print("Updated profile-stats.svg")
+
+if __name__ == "__main__":
+    main()
