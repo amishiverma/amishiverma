@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="380" height="160" viewBox="0 0 380 160">
+  <defs>
+    <!-- Glowing Premium Gradient -->
+    <linearGradient id="glow-gradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#b57edc" />
+      <stop offset="50%" stop-color="#70a5fd" />
+      <stop offset="100%" stop-color="#73daca" />
+    </linearGradient>
+  </defs>
+
+  <!-- Glowing Gradient Border -->
+  <rect width="380" height="160" rx="6" fill="#1a1b27" stroke="url(#glow-gradient)" stroke-width="2"/>
+
+  <style>
+    .title {
+      font-family: system-ui, -apple-system, sans-serif;
+      font-weight: 700;
+      font-size: 16px;
+      fill: #ffffff;
+    }
+    .desc {
+      font-family: system-ui, -apple-system, sans-serif;
+      font-weight: 400;
+      font-size: 12.5px;
+      fill: #a9b1d6;
+    }
+    .badge-rect {
+      rx: 4px;
+      ry: 4px;
+      stroke-width: 1px;
+    }
+    .badge-text {
+      font-family: system-ui, -apple-system, sans-serif;
+      font-weight: 600;
+      font-size: 10px;
+    }
+  </style>
+
+  <!-- Title -->
+  <text x="20" y="32" class="title">🩸 SOS Blood Donation Platform</text>
+
+  <!-- Tech Badges -->
+  <g transform="translate(20, 48)">
+    <!-- Badge 1 -->
+    <g transform="translate(0, 0)">
+      <rect width="72" height="18" class="badge-rect" fill="rgba(76, 175, 80, 0.1)" stroke="#4caf50" stroke-opacity="0.4"/>
+      <text x="7" y="12" class="badge-text" fill="#4caf50">Healthcare</text>
+    </g>
+    <!-- Badge 2 -->
+    <g transform="translate(78, 0)">
+      <rect width="60" height="18" class="badge-rect" fill="rgba(255, 111, 0, 0.1)" stroke="#ff6f00" stroke-opacity="0.4"/>
+      <text x="6" y="12" class="badge-text" fill="#ff6f00">Real-time</text>
+    </g>
+    <!-- Badge 3 -->
+    <g transform="translate(144, 0)">
+      <rect width="48" height="18" class="badge-rect" fill="rgba(0, 59, 87, 0.1)" stroke="#003b57" stroke-opacity="0.4"/>
+      <text x="7" y="12" class="badge-text" fill="#003b57">SQLite</text>
+    </g>
+  </g>
+
+  <!-- Description lines -->
+  <text x="20" y="94" class="desc">Award-winning platform built during the Ignite Hackathon that</text>
+  <text x="20" y="116" class="desc">bridges hospitals and blood donors using Gemini API integrations.</text>
+</svg>
