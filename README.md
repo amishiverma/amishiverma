@@ -52,8 +52,11 @@ A curious developer who loves experimenting with new tech stacks, designing slee
 ## 📊 GitHub Analytics & Insights
 
 <p align="center">
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=amishiverma&theme=tokyonight" alt="Amishi's GitHub Stats" height="200" />
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=amishiverma&theme=tokyonight" alt="Top Languages" height="200" />
+  <img src="https://github-readme-stats-eight-theta.vercel.app/api?username=amishiverma&show_icons=true&theme=tokyonight" alt="Amishi's GitHub Stats" height="195" />
+  <img src="https://github-readme-stats-eight-theta.vercel.app/api/top-langs/?username=amishiverma&layout=compact&theme=tokyonight" alt="Top Languages" height="195" />
+</p>
+<p align="center">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=amishiverma&theme=tokyonight&hide_border=true" alt="Contribution Graph" height="300" />
 </p>
 
 ---
@@ -256,8 +259,6 @@ Here are the live deployment and prototype links for my projects:
 | **UPI Sahayak** | [🔗 upisahayak.vercel.app](https://upisahayak.vercel.app/) | React / TypeScript | Live |
 | **Aeon** | [🔗 aeon-sooty.vercel.app](https://aeon-sooty.vercel.app) | Three.js / JavaScript | Live |
 | **EarlyShield** | [🔗 Google AI Studio Sandbox](https://ai.studio/apps/drive/1a87bc0tmmTBmf7dxQ7g9QaXC5jiuki3z) | TypeScript / Leaflet | Prototype |
-| **SheGuard** | `Local / On-Device (Gemma 3n)` | TypeScript / Ollama | Local Dev |
-| **SOS Blood** | `Local / Hackathon Winner` | TypeScript / React / Node.js | Completed |
 
 ---
 
