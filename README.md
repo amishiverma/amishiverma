@@ -68,9 +68,7 @@ Curious learner who enjoys building and experimenting with code!
   <img alt="CSS3" src="https://img.shields.io/badge/-CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" />
 </p>
 
-
 ---
-
 
 ## 🎯 Featured Projects
 
@@ -78,38 +76,89 @@ Curious learner who enjoys building and experimenting with code!
 <tr>
 <td width="50%" style="padding: 20px; border: 1px solid #30363d; border-radius: 6px;">
 
-### 🛡️ UPI Sahayak - AI Fraud Detection
+### 🛡️ PromptVeil - Secure LLM Prompt Proxy
 
-<a href="https://github.com/amishiverma/UPIsahayak">
-  <img src="https://img.shields.io/badge/VIEW%20PROJECT-EA4335?style=for-the-badge&logo=github&logoColor=white" alt="View Project"/>
+<a href="https://github.com/amishiverma/PromptVeil">
+  <img src="https://img.shields.io/badge/Code-181717?style=for-the-badge&logo=github&logoColor=white" alt="View Code"/>
+</a>
+<a href="https://prompt-veil.vercel.app">
+  <img src="https://img.shields.io/badge/Live_Demo-0078D4?style=for-the-badge&logo=vercel&logoColor=white" alt="Live Demo"/>
 </a>
 
 <p>
-  <img src="https://img.shields.io/badge/AI-Powered-0078D4?style=flat-square" alt="AI Powered"/>
-  <img src="https://img.shields.io/badge/Fintech-FF6F00?style=flat-square" alt="Fintech"/>
-  <img src="https://img.shields.io/badge/Voice-Assistant-E91E63?style=flat-square" alt="Voice"/>
+  <img src="https://img.shields.io/badge/AI_Security-0078D4?style=flat-square" alt="AI Security"/>
+  <img src="https://img.shields.io/badge/LLM_Proxy-9C27B0?style=flat-square" alt="LLM Proxy"/>
+  <img src="https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=node.js&logoColor=white" alt="Node.js"/>
+  <img src="https://img.shields.io/badge/Vercel-000000?style=flat-square&logo=vercel&logoColor=white" alt="Vercel"/>
+</p>
+
+Privacy-focused prompt shield and gateway to analyze, log, and intercept malicious prompt injections, jailbreaks, and sensitive data leaks.
+
+</td>
+<td width="50%" style="padding: 20px; border: 1px solid #30363d; border-radius: 6px;">
+
+### 🌌 ShadowVault - Real-time Prompt Protection
+
+<a href="https://github.com/amishiverma/ShadowVault">
+  <img src="https://img.shields.io/badge/Code-181717?style=for-the-badge&logo=github&logoColor=white" alt="View Code"/>
+</a>
+<a href="https://shadowvault-frontend-240115454129.us-central1.run.app/login">
+  <img src="https://img.shields.io/badge/Live_Demo-4285F4?style=for-the-badge&logo=google-cloud&logoColor=white" alt="Live Demo"/>
+</a>
+
+<p>
+  <img src="https://img.shields.io/badge/Prompt_Defense-FF5722?style=flat-square" alt="Prompt Defense"/>
+  <img src="https://img.shields.io/badge/Threat_Analytics-E91E63?style=flat-square" alt="Threat Analytics"/>
+  <img src="https://img.shields.io/badge/Cloud_Run-4285F4?style=flat-square&logo=google-cloud&logoColor=white" alt="Cloud Run"/>
   <img src="https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black" alt="React"/>
 </p>
 
-AI-powered UPI fraud detection and dispute management platform with vernacular voice assistant
+Real-time prompt protection platform offering advanced security filtering, threat analytics, and active mitigation of adversarial injections.
+
+</td>
+</tr>
+
+<tr>
+<td width="50%" style="padding: 20px; border: 1px solid #30363d; border-radius: 6px;">
+
+### 🛡️ UPI Sahayak - AI Fraud Detection
+
+<a href="https://github.com/amishiverma/UPIsahayak">
+  <img src="https://img.shields.io/badge/Code-181717?style=for-the-badge&logo=github&logoColor=white" alt="View Code"/>
+</a>
+<a href="https://upisahayak.vercel.app/">
+  <img src="https://img.shields.io/badge/Live_Demo-0078D4?style=for-the-badge&logo=vercel&logoColor=white" alt="Live Demo"/>
+</a>
+
+<p>
+  <img src="https://img.shields.io/badge/AI_Fraud-EA4335?style=flat-square" alt="AI Fraud"/>
+  <img src="https://img.shields.io/badge/Fintech-FF6F00?style=flat-square" alt="Fintech"/>
+  <img src="https://img.shields.io/badge/Voice_Assistant-4CAF50?style=flat-square" alt="Voice Assistant"/>
+  <img src="https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black" alt="React"/>
+</p>
+
+AI-powered UPI fraud detection and dispute management platform with integrated multi-lingual voice assistant support.
 
 </td>
 <td width="50%" style="padding: 20px; border: 1px solid #30363d; border-radius: 6px;">
 
-### � EarlyShield - Campus Safety Intelligence
+### 🛡️ EarlyShield - Campus Risk Intelligence
 
 <a href="https://github.com/amishiverma/EarlyShield">
-  <img src="https://img.shields.io/badge/VIEW%20PROJECT-34A853?style=for-the-badge&logo=github&logoColor=white" alt="View Project"/>
+  <img src="https://img.shields.io/badge/Code-181717?style=for-the-badge&logo=github&logoColor=white" alt="View Code"/>
+</a>
+<a href="https://ai.studio/apps/drive/1a87bc0tmmTBmf7dxQ7g9QaXC5jiuki3z">
+  <img src="https://img.shields.io/badge/Live_Demo-8E75C8?style=for-the-badge&logo=google-gemini&logoColor=white" alt="Live Demo"/>
 </a>
 
 <p>
-  <img src="https://img.shields.io/badge/Campus-Safety-4CAF50?style=flat-square" alt="Campus Safety"/>
-  <img src="https://img.shields.io/badge/Real--time-9C27B0?style=flat-square" alt="Real-time"/>
-  <img src="https://img.shields.io/badge/Geospatial-FF9800?style=flat-square" alt="Geospatial"/>
-  <img src="https://img.shields.io/badge/Gemini-4285F4?style=flat-square" alt="Gemini"/>
+  <img src="https://img.shields.io/badge/Geospatial_AI-34A853?style=flat-square" alt="Geospatial AI"/>
+  <img src="https://img.shields.io/badge/Campus_Safety-4CAF50?style=flat-square" alt="Campus Safety"/>
+  <img src="https://img.shields.io/badge/Leaflet-199900?style=flat-square&logo=leaflet&logoColor=white" alt="Leaflet"/>
+  <img src="https://img.shields.io/badge/Gemini_AI-8E75C8?style=flat-square&logo=google-gemini&logoColor=white" alt="Gemini"/>
 </p>
 
-Real-time web platform bridging campus communities and safety operations with AI-powered risk signal analysis
+Real-time campus intelligence and risk platform leveraging Google Gemini models to cluster crowdsourced risk signals with Leaflet geospatial mapping.
 
 </td>
 </tr>
@@ -117,59 +166,23 @@ Real-time web platform bridging campus communities and safety operations with AI
 <tr>
 <td width="50%" style="padding: 20px; border: 1px solid #30363d; border-radius: 6px;">
 
-### 📦 Return Intelligence Platform
-
-<a href="https://github.com/amishiverma/Return_Intelligence">
-  <img src="https://img.shields.io/badge/VIEW%20PROJECT-4285F4?style=for-the-badge&logo=github&logoColor=white" alt="View Project"/>
-</a>
-
-<p>
-  <img src="https://img.shields.io/badge/Retail-0078D4?style=flat-square" alt="Retail"/>
-  <img src="https://img.shields.io/badge/Azure-0089D6?style=flat-square&logo=microsoftazure&logoColor=white" alt="Azure"/>
-  <img src="https://img.shields.io/badge/Sustainability-4CAF50?style=flat-square" alt="Sustainability"/>
-  <img src="https://img.shields.io/badge/OpenAI-412991?style=flat-square&logo=openai&logoColor=white" alt="OpenAI"/>
-</p>
-
-Transform product returns into actionable retail intelligence with AI-powered root cause analysis
-
-</td>
-<td width="50%" style="padding: 20px; border: 1px solid #30363d; border-radius: 6px;">
-
-### 🚗 AutoAI - Predictive Maintenance
-
-<a href="https://github.com/amishiverma/AutoAi-AgenticNexus">
-  <img src="https://img.shields.io/badge/VIEW%20PROJECT-EA4335?style=for-the-badge&logo=github&logoColor=white" alt="View Project"/>
-</a>
-
-<p>
-  <img src="https://img.shields.io/badge/AI-Powered-0078D4?style=flat-square" alt="AI Powered"/>
-  <img src="https://img.shields.io/badge/Automotive-FF6F00?style=flat-square" alt="Automotive"/>
-  <img src="https://img.shields.io/badge/Multi--Agent-9C27B0?style=flat-square" alt="Tech"/>
-  <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python"/>
-</p>
-
-Next-generation automotive platform powered by agentic AI for predictive maintenance
-
-</td>
-</tr>
-
-<tr>
-<td width="50%" style="padding: 20px; border: 1px solid #30363d; border-radius: 6px;">
-
-### 🛡️ SheGuard - Offline AI Safety App
+### 🚨 SheGuard - Offline AI Safety App
 
 <a href="https://github.com/amishiverma/sheguard-offline-ai-safety-app">
-  <img src="https://img.shields.io/badge/VIEW%20PROJECT-9333EA?style=for-the-badge&logo=github&logoColor=white" alt="View Project"/>
+  <img src="https://img.shields.io/badge/Code-181717?style=for-the-badge&logo=github&logoColor=white" alt="View Code"/>
+</a>
+<a href="https://github.com/amishiverma/sheguard-offline-ai-safety-app">
+  <img src="https://img.shields.io/badge/On--Device-Offline-5B49E9?style=for-the-badge&logo=ollama&logoColor=white" alt="On-Device Setup"/>
 </a>
 
 <p>
-  <img src="https://img.shields.io/badge/AI-Safety-E91E63?style=flat-square" alt="AI"/>
-  <img src="https://img.shields.io/badge/Offline-9C27B0?style=flat-square" alt="Safety"/>
-  <img src="https://img.shields.io/badge/First-Response-FF5722?style=flat-square" alt="Offline"/>
-  <img src="https://img.shields.io/badge/Gemma-4285F4?style=flat-square" alt="First"/>
+  <img src="https://img.shields.io/badge/Offline_AI-E91E63?style=flat-square" alt="Offline AI"/>
+  <img src="https://img.shields.io/badge/Safety_App-9C27B0?style=flat-square" alt="Safety App"/>
+  <img src="https://img.shields.io/badge/Gemma_3n-4285F4?style=flat-square&logo=google-gemma&logoColor=white" alt="Gemma 3n"/>
+  <img src="https://img.shields.io/badge/Ollama-000000?style=flat-square&logo=ollama&logoColor=white" alt="Ollama"/>
 </p>
 
-AI-powered offline safety application for women's security with real-time threat detection
+On-device women's safety application using local Gemma 3n models running via Ollama for real-time voice-activated threat detection.
 
 </td>
 <td width="50%" style="padding: 20px; border: 1px solid #30363d; border-radius: 6px;">
@@ -177,21 +190,52 @@ AI-powered offline safety application for women's security with real-time threat
 ### 🩸 SOS Blood Donation Platform
 
 <a href="https://github.com/amishiverma/SOS-Blood-Donation-Platform">
-  <img src="https://img.shields.io/badge/VIEW%20PROJECT-F59E0B?style=for-the-badge&logo=github&logoColor=white" alt="View Project"/>
+  <img src="https://img.shields.io/badge/Code-181717?style=for-the-badge&logo=github&logoColor=white" alt="View Code"/>
+</a>
+<a href="https://github.com/amishiverma/SOS-Blood-Donation-Platform">
+  <img src="https://img.shields.io/badge/Ignite-Winner-F59E0B?style=for-the-badge&logo=hackaday&logoColor=white" alt="Hackathon Project"/>
 </a>
 
 <p>
   <img src="https://img.shields.io/badge/Healthcare-4CAF50?style=flat-square" alt="Healthcare"/>
-  <img src="https://img.shields.io/badge/Platform-FF6F00?style=flat-square" alt="Platform"/>
-  <img src="https://img.shields.io/badge/Social-E91E63?style=flat-square" alt="Social"/>
-  <img src="https://img.shields.io/badge/Impact-8BC34A?style=flat-square" alt="Impact"/>
+  <img src="https://img.shields.io/badge/Real--time-FF6F00?style=flat-square" alt="Real-time"/>
+  <img src="https://img.shields.io/badge/SQLite-003B57?style=flat-square&logo=sqlite&logoColor=white" alt="SQLite"/>
+  <img src="https://img.shields.io/badge/Express-000000?style=flat-square&logo=express&logoColor=white" alt="Express"/>
 </p>
 
-Connecting blood donors with those in need - saving lives together with AI-powered matching
+Award-winning platform built during the Ignite Hackathon that bridges hospitals and blood donors using Gemini API integrations.
 
 </td>
 </tr>
 </table>
+
+---
+
+## 🚀 Deployed Project Links
+
+Here are the live deployment and prototype links for my projects:
+
+| Project | Live URL / Deployment | Tech Stack | Status |
+| :--- | :--- | :--- | :--- |
+| **PromptVeil** | [🔗 prompt-veil.vercel.app](https://prompt-veil.vercel.app) | JavaScript / Node.js | Live |
+| **ShadowVault** | [🔗 shadowvault-frontend.run.app](https://shadowvault-frontend-240115454129.us-central1.run.app/login) | JavaScript / Cloud Run | Live |
+| **UPI Sahayak** | [🔗 upisahayak.vercel.app](https://upisahayak.vercel.app/) | React / TypeScript | Live |
+| **Aeon** | [🔗 aeon-sooty.vercel.app](https://aeon-sooty.vercel.app) | Three.js / JavaScript | Live |
+| **EarlyShield** | [🔗 Google AI Studio Sandbox](https://ai.studio/apps/drive/1a87bc0tmmTBmf7dxQ7g9QaXC5jiuki3z) | TypeScript / Leaflet | Prototype |
+| **SheGuard** | `Local / On-Device (Gemma 3n)` | TypeScript / Ollama | Local Dev |
+| **SOS Blood** | `Local / Hackathon Winner` | TypeScript / React / Node.js | Completed |
+
+---
+
+## 🤝 Open Source & Contributions
+
+I actively contribute to various developer tools, AI frameworks, and community ecosystems:
+
+* **[rocketride-org/rocketride-server](https://github.com/rocketride-org/rocketride-server)** — High-performance AI pipeline engine with a C++ core and 50+ Python-extensible nodes.
+* **[juspay/hyperswitch-prism](https://github.com/juspay/hyperswitch-prism)** — API validation and mock server tool developed by Juspay for secure and high-performance payment orchestration.
+* **[ComposioHQ/awesome-codex-skills](https://github.com/ComposioHQ/awesome-codex-skills)** — A curated collection of powerful integrations and tools for AI agents and codex interfaces.
+* **[lemony-ai/cascadeflow](https://github.com/lemony-ai/cascadeflow)** — Lightweight, highly modular execution pipelines and control flows for agentic AI applications.
+* **[Mhatreyash/ModelMarket](https://github.com/Mhatreyash/ModelMarket)** — A marketplace platform focusing on machine learning model sharing, tracking, and metrics.
 
 ---
 
