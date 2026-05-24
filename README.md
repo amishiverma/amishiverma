@@ -17,55 +17,92 @@
 
 ## 🚀 About Me
 
-<div align="center">
+<table align="center">
+<tr>
+<td width="60%" style="vertical-align: top; padding: 15px;">
 
 ### Hi, I'm Amishi Verma! 👋
 
-**2nd year student | Website Developer | UI/UX Designer | Frontend | AIML**
+I am a **2nd-year student** passionate about building cutting-edge full-stack web applications, designing interactive UI/UX experiences, and exploring agentic AI.
 
-📍 Mumbai, Maharashtra | 💻 Passionate about creating amazing digital experiences
-
-</div>
-
-<table align="center">
-<tr>
-<td align="center" width="50%">
-
-### 💡 Current Focus
-Building scalable web applications and landing an internship
-
-### 🎯 What I Do
-- 🌐 Website Development
-- 🎨 UI/UX Design
-- ⚛️ Frontend Development
-- 🤖 AI/ML Projects
+* 🎓 **Education**: 2nd Year Computer Engineering Student
+* 📍 **Location**: Mumbai, Maharashtra, India
+* 💻 **Passionate About**: Creating amazing digital experiences, AI security, and full-stack software.
+* 🎯 **What I Do**: 
+  - 🌐 Build secure, AI-powered web ecosystems
+  - 🤖 Integrate local & cloud LLMs (Gemini, Gemma 3n, Ollama)
+  - 🎨 Design interactive prototypes in Figma
 
 </td>
-<td align="center" width="50%">
-
-### 💻 Languages
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![Java](https://img.shields.io/badge/Java-007396?style=for-the-badge&logo=java&logoColor=white)
-![C++](https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white)
-![C](https://img.shields.io/badge/C-A8B9CC?style=for-the-badge&logo=c&logoColor=black)
-![CSS](https://img.shields.io/badge/CSS-1572B6?style=for-the-badge&logo=css3&logoColor=white)
+<td width="40%" style="vertical-align: top; padding: 15px; border-left: 1px solid #30363d;">
 
 ### ✨ Fun Fact
-Curious learner who enjoys building and experimenting with code!
+A curious developer who loves experimenting with new tech stacks, designing sleek interfaces, and solving real-world challenges!
+
+### 💡 Current Focus
+- Landing an internship to scale production systems
+- Implementing robust local AI agents & security shielding
 
 </td>
 </tr>
 </table>
 
-## 🛠️ Tech Stack
+---
 
-### Languages
+## 📊 GitHub Analytics & Insights
+
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=amishiverma&show_icons=true&theme=tokyonight" alt="Amishi's GitHub Stats" height="180" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=amishiverma&layout=compact&theme=tokyonight" alt="Top Languages" height="180" />
+</p>
+<p align="center">
+  <img src="https://streak-stats.demolab.com/?user=amishiverma&theme=tokyonight" alt="GitHub Streak" height="180" />
+</p>
+
+---
+
+## 🛠️ Tech Stack & Skills
+
+### 💻 Languages & Databases
 <p>
- <img alt="Python" src="https://img.shields.io/badge/-Python-3776AB?style=for-the-badge&logo=python&logoColor=white" />
-  <img alt="Java" src="https://img.shields.io/badge/-Java-007396?style=for-the-badge&logo=java&logoColor=white" />
-  <img alt="C++" src="https://img.shields.io/badge/-C++-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white" />
-  <img alt="HTML5" src="https://img.shields.io/badge/-HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" />
-  <img alt="CSS3" src="https://img.shields.io/badge/-CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" />
+  <img alt="TypeScript" src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white" />
+  <img alt="JavaScript" src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" />
+  <img alt="Python" src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" />
+  <img alt="C++" src="https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white" />
+  <img alt="C" src="https://img.shields.io/badge/C-A8B9CC?style=for-the-badge&logo=c&logoColor=black" />
+  <img alt="Java" src="https://img.shields.io/badge/Java-007396?style=for-the-badge&logo=java&logoColor=white" />
+  <img alt="HTML5" src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" />
+  <img alt="CSS3" src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" />
+  <img alt="SQLite" src="https://img.shields.io/badge/SQLite-003B57?style=for-the-badge&logo=sqlite&logoColor=white" />
+</p>
+
+### ⚛️ Frameworks & Web Tech
+<p>
+  <img alt="React" src="https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black" />
+  <img alt="Node.js" src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=node.js&logoColor=white" />
+  <img alt="Express" src="https://img.shields.io/badge/Express-000000?style=for-the-badge&logo=express&logoColor=white" />
+  <img alt="Next.js" src="https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white" />
+  <img alt="Three.js" src="https://img.shields.io/badge/Three.js-000000?style=for-the-badge&logo=threedotjs&logoColor=white" />
+  <img alt="Leaflet" src="https://img.shields.io/badge/Leaflet-199900?style=for-the-badge&logo=leaflet&logoColor=white" />
+  <img alt="TailwindCSS" src="https://img.shields.io/badge/TailwindCSS-38B2AC?style=for-the-badge&logo=tailwindcss&logoColor=white" />
+</p>
+
+### 🤖 AI/ML & Security Ecosystem
+<p>
+  <img alt="Gemini" src="https://img.shields.io/badge/Google_Gemini-8E75C8?style=for-the-badge&logo=google-gemini&logoColor=white" />
+  <img alt="Gemma" src="https://img.shields.io/badge/Google_Gemma-4285F4?style=for-the-badge&logo=google-gemma&logoColor=white" />
+  <img alt="Ollama" src="https://img.shields.io/badge/Ollama-000000?style=for-the-badge&logo=ollama&logoColor=white" />
+  <img alt="AI Security" src="https://img.shields.io/badge/AI_Security-FF5722?style=for-the-badge&logo=shield&logoColor=white" />
+  <img alt="Prompt Engineering" src="https://img.shields.io/badge/Prompt_Engineering-E91E63?style=for-the-badge&logo=openai&logoColor=white" />
+</p>
+
+### 🛠️ Cloud & Tooling
+<p>
+  <img alt="Google Cloud" src="https://img.shields.io/badge/Google_Cloud-4285F4?style=for-the-badge&logo=google-cloud&logoColor=white" />
+  <img alt="Vercel" src="https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white" />
+  <img alt="Figma" src="https://img.shields.io/badge/Figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white" />
+  <img alt="Git" src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" />
+  <img alt="GitHub" src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" />
 </p>
 
 ---
