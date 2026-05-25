@@ -153,6 +153,20 @@ A curious developer who loves experimenting with new tech stacks, designing slee
       </a>
     </td>
     <td width="50%" align="center" valign="top" style="border: none; background: transparent; padding: 10px;">
+      <a href="https://github.com/amishiverma/aeon">
+        <img src="card-aeon.svg" width="100%" alt="Aeon" />
+      </a>
+      <br />
+      <a href="https://github.com/amishiverma/aeon">
+        <img src="https://img.shields.io/badge/Code-181717?style=for-the-badge&logo=github&logoColor=white" alt="View Code"/>
+      </a>
+      <a href="https://aeon-sooty.vercel.app">
+        <img src="https://img.shields.io/badge/Live_Demo-0078D4?style=for-the-badge&logo=vercel&logoColor=white" alt="Live Demo"/>
+      </a>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" align="center" valign="top" style="border: none; background: transparent; padding: 10px;">
       <a href="https://github.com/amishiverma/EarlyShield">
         <img src="card-earlyshield.svg" width="100%" alt="EarlyShield" />
       </a>
@@ -164,8 +178,6 @@ A curious developer who loves experimenting with new tech stacks, designing slee
         <img src="https://img.shields.io/badge/Live_Demo-8E75C8?style=for-the-badge&logo=google-gemini&logoColor=white" alt="Live Demo"/>
       </a>
     </td>
-  </tr>
-  <tr>
     <td width="50%" align="center" valign="top" style="border: none; background: transparent; padding: 10px;">
       <a href="https://github.com/amishiverma/sheguard-offline-ai-safety-app">
         <img src="card-sheguard.svg" width="100%" alt="SheGuard" />
@@ -178,6 +190,8 @@ A curious developer who loves experimenting with new tech stacks, designing slee
         <img src="https://img.shields.io/badge/On--Device-Offline-5B49E9?style=for-the-badge&logo=ollama&logoColor=white" alt="On-Device Setup"/>
       </a>
     </td>
+  </tr>
+  <tr>
     <td width="50%" align="center" valign="top" style="border: none; background: transparent; padding: 10px;">
       <a href="https://github.com/amishiverma/SOS-Blood-Donation-Platform">
         <img src="card-sosblood.svg" width="100%" alt="SOS Blood Donation Platform" />
@@ -188,6 +202,18 @@ A curious developer who loves experimenting with new tech stacks, designing slee
       </a>
       <a href="https://github.com/amishiverma/SOS-Blood-Donation-Platform">
         <img src="https://img.shields.io/badge/Ignite-Winner-F59E0B?style=for-the-badge&logo=hackaday&logoColor=white" alt="Hackathon Project"/>
+      </a>
+    </td>
+    <td width="50%" align="center" valign="top" style="border: none; background: transparent; padding: 10px;">
+      <a href="https://github.com/amishiverma/ReturnIntelligence">
+        <img src="card-returnintelligence.svg" width="100%" alt="ReturnIntelligence" />
+      </a>
+      <br />
+      <a href="https://github.com/amishiverma/ReturnIntelligence">
+        <img src="https://img.shields.io/badge/Code-181717?style=for-the-badge&logo=github&logoColor=white" alt="View Code"/>
+      </a>
+      <a href="https://returnintelligence.vercel.app">
+        <img src="https://img.shields.io/badge/Live_Demo-0078D4?style=for-the-badge&logo=vercel&logoColor=white" alt="Live Demo"/>
       </a>
     </td>
   </tr>
@@ -206,6 +232,7 @@ Here are the live deployment and prototype links for my projects:
 | **UPI Sahayak** | [🔗 upisahayak.vercel.app](https://upisahayak.vercel.app/) | React / TypeScript | Live |
 | **Aeon** | [🔗 aeon-sooty.vercel.app](https://aeon-sooty.vercel.app) | Three.js / JavaScript | Live |
 | **EarlyShield** | [🔗 Google AI Studio Sandbox](https://ai.studio/apps/drive/1a87bc0tmmTBmf7dxQ7g9QaXC5jiuki3z) | TypeScript / Leaflet | Prototype |
+| **ReturnIntelligence** | [🔗 returnintelligence.vercel.app](https://returnintelligence.vercel.app) | Next.js / TypeScript | Live |
 
 ---
 
