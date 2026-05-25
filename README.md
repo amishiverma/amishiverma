@@ -134,8 +134,8 @@ A curious developer who loves experimenting with new tech stacks, designing slee
       <a href="https://github.com/amishiverma/ShadowVault">
         <img src="https://img.shields.io/badge/Code-181717?style=for-the-badge&logo=github&logoColor=white" alt="View Code"/>
       </a>
-      <a href="https://shadowvault-frontend-240115454129.us-central1.run.app/login">
-        <img src="https://img.shields.io/badge/Live_Demo-4285F4?style=for-the-badge&logo=google-cloud&logoColor=white" alt="Live Demo"/>
+      <a href="https://shadow-vault-five.vercel.app/login">
+        <img src="https://img.shields.io/badge/Live_Demo-0078D4?style=for-the-badge&logo=vercel&logoColor=white" alt="Live Demo"/>
       </a>
     </td>
   </tr>
@@ -202,7 +202,7 @@ Here are the live deployment and prototype links for my projects:
 | Project | Live URL / Deployment | Tech Stack | Status |
 | :--- | :--- | :--- | :--- |
 | **PromptVeil** | [🔗 prompt-veil.vercel.app](https://prompt-veil.vercel.app) | JavaScript / Node.js | Live |
-| **ShadowVault** | [🔗 shadowvault-frontend.run.app](https://shadowvault-frontend-240115454129.us-central1.run.app/login) | JavaScript / Cloud Run | Live |
+| **ShadowVault** | [🔗 shadow-vault-five.vercel.app](https://shadow-vault-five.vercel.app/login) | JavaScript / Vercel | Live |
 | **UPI Sahayak** | [🔗 upisahayak.vercel.app](https://upisahayak.vercel.app/) | React / TypeScript | Live |
 | **Aeon** | [🔗 aeon-sooty.vercel.app](https://aeon-sooty.vercel.app) | Three.js / JavaScript | Live |
 | **EarlyShield** | [🔗 Google AI Studio Sandbox](https://ai.studio/apps/drive/1a87bc0tmmTBmf7dxQ7g9QaXC5jiuki3z) | TypeScript / Leaflet | Prototype |

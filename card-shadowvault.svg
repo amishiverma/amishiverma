@@ -53,8 +53,8 @@
     </g>
     <!-- Badge 3 -->
     <g transform="translate(196, 0)">
-      <rect width="66" height="18" class="badge-rect" fill="rgba(112, 165, 253, 0.1)" stroke="#70a5fd" stroke-opacity="0.4"/>
-      <text x="7" y="12" class="badge-text" fill="#70a5fd">Cloud Run</text>
+      <rect width="52" height="18" class="badge-rect" fill="rgba(112, 165, 253, 0.1)" stroke="#70a5fd" stroke-opacity="0.4"/>
+      <text x="7" y="12" class="badge-text" fill="#70a5fd">Vercel</text>
     </g>
   </g>
 
