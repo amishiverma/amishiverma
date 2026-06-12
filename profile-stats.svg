@@ -45,7 +45,7 @@
     <g transform="translate(0, 50)">
       <path class="icon" d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20v2H6.5a1.5 1.5 0 0 0 0 3H20v1H6.5A2.5 2.5 0 0 1 4 19.5z M4 4.5A2.5 2.5 0 0 1 6.5 2H20v15H6.5A2.5 2.5 0 0 1 4 14.5v-10z" transform="scale(0.85)"/>
       <text x="28" y="14" class="stat-text">
-        <tspan class="stat-value">18</tspan>
+        <tspan class="stat-value">16</tspan>
         <tspan class="stat-label"> Public Repos</tspan>
       </text>
     </g>
