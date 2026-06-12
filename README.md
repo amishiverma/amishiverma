@@ -193,15 +193,15 @@ A curious developer who loves experimenting with new tech stacks, designing slee
   </tr>
   <tr>
     <td width="50%" align="center" valign="top" style="border: none; background: transparent; padding: 10px;">
-      <a href="https://github.com/amishiverma/SOS-Blood-Donation-Platform">
-        <img src="card-sosblood.svg" width="100%" alt="SOS Blood Donation Platform" />
+      <a href="https://github.com/amishiverma/ModelMarket">
+        <img src="card-modelmarket.svg" width="100%" alt="ModelMarket" />
       </a>
       <br />
-      <a href="https://github.com/amishiverma/SOS-Blood-Donation-Platform">
+      <a href="https://github.com/amishiverma/ModelMarket">
         <img src="https://img.shields.io/badge/Code-181717?style=for-the-badge&logo=github&logoColor=white" alt="View Code"/>
       </a>
-      <a href="https://github.com/amishiverma/SOS-Blood-Donation-Platform">
-        <img src="https://img.shields.io/badge/Ignite-Winner-F59E0B?style=for-the-badge&logo=hackaday&logoColor=white" alt="Hackathon Project"/>
+      <a href="https://model-market.vercel.app/">
+        <img src="https://img.shields.io/badge/Live_Demo-0078D4?style=for-the-badge&logo=vercel&logoColor=white" alt="Live Demo"/>
       </a>
     </td>
     <td width="50%" align="center" valign="top" style="border: none; background: transparent; padding: 10px;">
@@ -233,6 +233,7 @@ Here are the live deployment and prototype links for my projects:
 | **Aeon** | [🔗 aeon-sooty.vercel.app](https://aeon-sooty.vercel.app) | Three.js / JavaScript | Live |
 | **EarlyShield** | [🔗 Google AI Studio Sandbox](https://ai.studio/apps/drive/1a87bc0tmmTBmf7dxQ7g9QaXC5jiuki3z) | TypeScript / Leaflet | Prototype |
 | **ReturnIntelligence** | [🔗 returnintelligence.vercel.app](https://returnintelligence.vercel.app) | Next.js / TypeScript | Live |
+| **ModelMarket** | [🔗 model-market.vercel.app](https://model-market.vercel.app/) | Next.js / Solidity | Live |
 
 ---
 
