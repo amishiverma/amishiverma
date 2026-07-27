@@ -104,7 +104,7 @@ STATS_TEMPLATE = """<svg xmlns="http://www.w3.org/2000/svg" width="380" height="
       <path class="icon" d="M12 2C6.5 2 2 6.5 2 12s4.5 10 10 10 10-4.5 10-10S17.5 2 12 2zm4.2 14.2L11 13V7h1.5v5.2l4.5 2.7-.8 1.3z" transform="scale(0.9)"/>
       <text x="28" y="14" class="stat-text">
         <tspan class="stat-label">Joined GitHub </tspan>
-        <tspan class="stat-value">1 year ago</tspan>
+        <tspan class="stat-value">{joined_years} years ago</tspan>
       </text>
     </g>
 
@@ -149,26 +149,37 @@ def fetch_contributions():
 
     return contribs_2025, contribs_2026
 
-def fetch_public_repos():
+def fetch_public_repos_and_created():
     headers = {'User-Agent': 'Mozilla/5.0'}
     url = "https://api.github.com/users/amishiverma"
     req = urllib.request.Request(url, headers=headers)
     public_repos = 16 # Fallback
+    joined_years = 1
     try:
         with urllib.request.urlopen(req, timeout=5) as resp:
             data = json.loads(resp.read().decode('utf-8'))
             public_repos = data.get("public_repos", public_repos)
+            
+            # Calculate years ago
+            import datetime
+            created_at = data.get("created_at")
+            if created_at:
+                created_year = int(created_at.split("-")[0])
+                current_year = datetime.datetime.now().year
+                joined_years = current_year - created_year
+                if joined_years < 1:
+                    joined_years = 1
     except Exception as e:
-        print(f"Error fetching public repos count: {e}")
-    return public_repos
+        print(f"Error fetching user data: {e}")
+    return public_repos, joined_years
 
 def main():
     print("Fetching updated metrics...")
     c_2025, c_2026 = fetch_contributions()
-    repos = fetch_public_repos()
+    repos, joined_years = fetch_public_repos_and_created()
     
     total = c_2025 + c_2026
-    print(f"Metrics Fetched: 2025 Contributions = {c_2025}, 2026 Contributions = {c_2026}, Total = {total}, Public Repos = {repos}")
+    print(f"Metrics Fetched: 2025 Contributions = {c_2025}, 2026 Contributions = {c_2026}, Total = {total}, Public Repos = {repos}, Years = {joined_years}")
     
     # Write contributions.svg
     contrib_svg_content = CONTRIBUTIONS_TEMPLATE.replace("{total_contributions}", str(total))
@@ -177,7 +188,7 @@ def main():
     print("Updated contributions.svg")
     
     # Write profile-stats.svg
-    stats_svg_content = STATS_TEMPLATE.replace("{year_contributions}", str(c_2026)).replace("{public_repos}", str(repos))
+    stats_svg_content = STATS_TEMPLATE.replace("{year_contributions}", str(c_2026)).replace("{public_repos}", str(repos)).replace("{joined_years}", str(joined_years))
     with open("profile-stats.svg", "w", encoding="utf-8") as f:
         f.write(stats_svg_content)
     print("Updated profile-stats.svg")

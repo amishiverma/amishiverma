@@ -55,7 +55,7 @@
       <path class="icon" d="M12 2C6.5 2 2 6.5 2 12s4.5 10 10 10 10-4.5 10-10S17.5 2 12 2zm4.2 14.2L11 13V7h1.5v5.2l4.5 2.7-.8 1.3z" transform="scale(0.9)"/>
       <text x="28" y="14" class="stat-text">
         <tspan class="stat-label">Joined GitHub </tspan>
-        <tspan class="stat-value">1 year ago</tspan>
+        <tspan class="stat-value">1 years ago</tspan>
       </text>
     </g>
 
