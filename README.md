@@ -1,6 +1,6 @@
-<h1 align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=timeGradient&height=250&section=header&text=Amishi%20Verma&fontSize=80&fontAlignY=35&desc=Fullstack%20Developer%20%7C%20AI%20Engineer%20%7C%20UI/UX%20Designer&descAlignY=55&descSize=20&animation=fadeIn" />
-</h1>
+<div align="center">
+  <img src="animated-profile.svg" alt="Amishi Verma Profile Header" width="100%" />
+</div>
 
 <p align="center">
   <img src="https://komarev.com/ghpvc/?username=amishiverma&label=Profile%20views&color=0e75b6&style=flat" alt="profile views" />
