@@ -142,12 +142,12 @@ async function generateProfile() {
     <text x="0" y="25" class="stat-label">VIEWS</text>
     
     <!-- Contributions -->
-    <text x="166" y="0" class="stat-value">386+</text>
+    <text x="166" y="0" class="stat-value">405</text>
     <text x="166" y="25" class="stat-label stat-label-forks">CONTRIBUTIONS</text>
     
-    <!-- Projects -->
+    <!-- Repos -->
     <text x="333" y="0" class="stat-value">${repoCount}</text>
-    <text x="333" y="25" class="stat-label stat-label-repos">PROJECTS</text>
+    <text x="333" y="25" class="stat-label stat-label-repos">REPOS</text>
     
     <!-- Experience -->
     <text x="500" y="0" class="stat-value">3 YRS</text>
