@@ -89,7 +89,7 @@
   <!-- Stats Row -->
   <g transform="translate(150, 420)">
     <!-- Views -->
-    <text x="0" y="0" class="stat-value">764</text>
+    <text x="0" y="0" class="stat-value">766</text>
     <text x="0" y="25" class="stat-label">VIEWS</text>
     
     <!-- Contributions -->

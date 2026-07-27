@@ -28,6 +28,72 @@ function fetchGitHubAPI(url, token) {
   });
 }
 
+// Helper to fetch GraphQL
+function fetchGitHubGraphQL(token) {
+  return new Promise((resolve, reject) => {
+    const data = JSON.stringify({
+      query: `
+        query {
+          user(login: "amishiverma") {
+            contributionsCollection {
+              contributionCalendar {
+                totalContributions
+              }
+            }
+          }
+        }
+      `
+    });
+
+    const options = {
+      hostname: 'api.github.com',
+      path: '/graphql',
+      method: 'POST',
+      headers: {
+        'User-Agent': 'node.js',
+        'Authorization': `bearer ${token}`,
+        'Content-Type': 'application/json',
+        'Content-Length': data.length
+      }
+    };
+    
+    const req = https.request(options, (res) => {
+      let body = '';
+      res.on('data', chunk => body += chunk);
+      res.on('end', () => {
+        try {
+          resolve(JSON.parse(body));
+        } catch (e) {
+          resolve({});
+        }
+      });
+    });
+    req.on('error', reject);
+    req.write(data);
+    req.end();
+  });
+}
+
+// Helper to fetch views from Komarev
+function fetchViews() {
+  return new Promise((resolve) => {
+    https.get('https://komarev.com/ghpvc/?username=amishiverma', (res) => {
+      let data = '';
+      res.on('data', chunk => data += chunk);
+      res.on('end', () => {
+        const match = data.match(/>\s*([0-9,]+)\s*<\/text>/g);
+        if (match && match.length > 0) {
+          const lastMatch = match[match.length - 1];
+          const number = lastMatch.replace(/[^0-9,]/g, '');
+          resolve(number || '764');
+        } else {
+          resolve('764');
+        }
+      });
+    }).on('error', () => resolve('764'));
+  });
+}
+
 async function generateProfile() {
   const GITHUB_TOKEN = process.env.GITHUB_TOKEN;
   const username = 'amishiverma';
@@ -46,6 +112,20 @@ async function generateProfile() {
       forks += repo.forks_count;
     });
   }
+
+  let contributions = 405;
+  if (GITHUB_TOKEN) {
+    try {
+      const gql = await fetchGitHubGraphQL(GITHUB_TOKEN);
+      if (gql && gql.data && gql.data.user) {
+        contributions = gql.data.user.contributionsCollection.contributionCalendar.totalContributions;
+      }
+    } catch (e) {
+      console.log('Error fetching contributions:', e);
+    }
+  }
+
+  let views = await fetchViews();
 
   const svg = `<svg xmlns="http://www.w3.org/2000/svg" width="800" height="600" viewBox="0 0 800 600">
   <defs>
@@ -138,11 +218,11 @@ async function generateProfile() {
   <!-- Stats Row -->
   <g transform="translate(150, 420)">
     <!-- Views -->
-    <text x="0" y="0" class="stat-value">764</text>
+    <text x="0" y="0" class="stat-value">${views}</text>
     <text x="0" y="25" class="stat-label">VIEWS</text>
     
     <!-- Contributions -->
-    <text x="166" y="0" class="stat-value">405</text>
+    <text x="166" y="0" class="stat-value">${contributions}</text>
     <text x="166" y="25" class="stat-label stat-label-forks">CONTRIBUTIONS</text>
     
     <!-- Repos -->
