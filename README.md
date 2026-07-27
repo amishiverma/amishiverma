@@ -1,5 +1,5 @@
 <h1 align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=32&duration=3000&pause=1000&color=2E9EF7&center=true&vCenter=true&width=600&lines=Hi+there!+I'm+Amishi+Verma+👋;Website+Developer;Web+Designer;UI/UX+Designer;Frontend;Fullstack+Developer;AI+Engineer" alt="Typing SVG" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=timeGradient&height=250&section=header&text=Amishi%20Verma&fontSize=80&fontAlignY=35&desc=Fullstack%20Developer%20%7C%20AI%20Engineer%20%7C%20UI/UX%20Designer&descAlignY=55&descSize=20&animation=fadeIn" />
 </h1>
 
 <p align="center">
