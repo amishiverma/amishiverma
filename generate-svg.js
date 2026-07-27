@@ -229,9 +229,9 @@ async function generateProfile() {
     <text x="333" y="0" class="stat-value">${repoCount}</text>
     <text x="333" y="25" class="stat-label stat-label-repos">REPOS</text>
     
-    <!-- Experience -->
-    <text x="500" y="0" class="stat-value">3 YRS</text>
-    <text x="500" y="25" class="stat-label stat-label-commits">GITHUB EXP</text>
+    <!-- Projects -->
+    <text x="500" y="0" class="stat-value">10+</text>
+    <text x="500" y="25" class="stat-label stat-label-commits">PROJECTS</text>
   </g>
   
 </svg>`;

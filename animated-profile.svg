@@ -89,7 +89,7 @@
   <!-- Stats Row -->
   <g transform="translate(150, 420)">
     <!-- Views -->
-    <text x="0" y="0" class="stat-value">766</text>
+    <text x="0" y="0" class="stat-value">770</text>
     <text x="0" y="25" class="stat-label">VIEWS</text>
     
     <!-- Contributions -->
@@ -100,9 +100,9 @@
     <text x="333" y="0" class="stat-value">19</text>
     <text x="333" y="25" class="stat-label stat-label-repos">REPOS</text>
     
-    <!-- Experience -->
-    <text x="500" y="0" class="stat-value">3 YRS</text>
-    <text x="500" y="25" class="stat-label stat-label-commits">GITHUB EXP</text>
+    <!-- Projects -->
+    <text x="500" y="0" class="stat-value">10+</text>
+    <text x="500" y="25" class="stat-label stat-label-commits">PROJECTS</text>
   </g>
   
 </svg>
