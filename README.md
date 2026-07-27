@@ -1,5 +1,5 @@
 <h1 align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=32&duration=3000&pause=1000&color=2E9EF7&center=true&vCenter=true&width=600&lines=Hi+there!+I'm+Amishi+Verma+👋;Website+Developer;AIML+Enthusiast;UI/UX+Designer;Frontend;Vibe+Coder" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=32&duration=3000&pause=1000&color=2E9EF7&center=true&vCenter=true&width=600&lines=Hi+there!+I'm+Amishi+Verma+👋;Website+Developer;Web+Designer;UI/UX+Designer;Frontend;Fullstack+Developer;AI+Engineer" alt="Typing SVG" />
 </h1>
 
 <p align="center">
@@ -23,9 +23,9 @@
 
 ### Hi, I'm Amishi Verma! 👋
 
-I am a **2nd-year student** passionate about building cutting-edge full-stack web applications, designing interactive UI/UX experiences, and exploring agentic AI.
+I am a **3rd-year student** passionate about building cutting-edge full-stack web applications, designing interactive UI/UX experiences, and exploring agentic AI.
 
-* 🎓 **Education**: 2nd Year Computer Engineering Student
+* 🎓 **Education**: 3rd Year Computer Engineering Student
 * 📍 **Location**: Mumbai, Maharashtra, India
 * 💻 **Passionate About**: Creating amazing digital experiences, AI security, and full-stack software.
 * 🎯 **What I Do**: 
