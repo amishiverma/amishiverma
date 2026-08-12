@@ -85,7 +85,7 @@
     <text x="0" y="25" class="stat-label">STARS</text>
     
     <!-- Forks -->
-    <text x="166" y="0" class="stat-value">2</text>
+    <text x="166" y="0" class="stat-value">6</text>
     <text x="166" y="25" class="stat-label stat-label-forks">FORKS</text>
     
     <!-- Repos -->
